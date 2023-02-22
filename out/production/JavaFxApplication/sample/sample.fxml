@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #81c483;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="apMain" layoutY="65.0" prefHeight="334.0" prefWidth="600.0" style="-fx-background-color: #F0E68C;">
+         <children>
+            <TextField fx:id="tbName" alignment="CENTER" focusTraversable="false" layoutX="183.0" layoutY="35.0" prefHeight="42.0" prefWidth="234.0" promptText="Name">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tbAdress" alignment="CENTER" focusTraversable="false" layoutX="183.0" layoutY="112.0" prefHeight="42.0" prefWidth="234.0" promptText="Adress">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tbPort" alignment="CENTER" focusTraversable="false" layoutX="183.0" layoutY="186.0" prefHeight="42.0" prefWidth="234.0" promptText="Port">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnStart" alignment="CENTER" layoutX="183.0" layoutY="254.0" mnemonicParsing="false" onAction="btnStartOnClickMethod" prefHeight="42.0" prefWidth="234.0" text="Start" textAlignment="RIGHT">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label layoutX="224.0" layoutY="-9.0" text="Sign in" textFill="#f7f7f4">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
